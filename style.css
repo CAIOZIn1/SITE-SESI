@@ -123,22 +123,48 @@
 }
 
 .botao_atom{
-    margin-top: 30px;
-    margin-left: 400px;
+    background-image: url("imagens/atom.jpg");
+    width: 310px;
+    height: 231px;
     border: none;
-    height: 0px;
+    margin-left: 150px;
+    object-fit: cover;
+    object-position: 20px 20px 40px;
+    margin-top: 30px;
+    margin-right: 20px;
+    
+
+}
+
+.botao_atom:hover{
+    background-image: url("imagens/atom_click.png");
+
 }
 
 .botao_mat{
-    margin-left: 20px;
+    background-image: url("imagens/mat.png");
+    width: 310px;
+    height: 231px;
     border: none;
-    height: 0px;
+    margin-right: 20px;
+}
+
+.botao_mat:hover{
+    background-image: url("imagens/mat_click.png");
+
 }
 
 .botao_certi{
-    margin-left: 20px;
+    background-image: url("imagens/certificado.jpg");
+    width: 310px;
+    height: 231px;
     border: none;
-    height: 0px;
+    margin-right: 10px;
+}
+
+.botao_certi:hover{
+    background-image: url("imagens/certificado_click.png");
+
 }
 
 .depoimento{
@@ -198,6 +224,7 @@
     align-items: center;
     justify-content: space-evenly;
     padding-top: 30px;
+    padding-right: 10px;
     color: #0060A6
 }
 
@@ -247,12 +274,56 @@
     padding-top: 20px;
 }
 
-.entradas{
+.entradas input{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
     padding-top: 20px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    width: 573px;
+    height: 37px;
+    margin-left: 400px;
+    padding-bottom: 20px;
+}
+
+.entrada_nome{
+    box-shadow: 0 0 0 0;
+    outline: 0;
+    border-width: var(--brwe,1px);
+    background-color: rgba(var(--bge,255,255,255),var(--alpha-bge,1));
+    border-style: solid;
+    border-color: rgba(var(--brde,163,217,246),var(--alpha-brde,1));
+    
+}
+
+.entrada_nacionalidade{
+    box-shadow: 0 0 0 0;
+    outline: 0;
+    border-width: var(--brwe,1px);
+    background-color: rgba(var(--bge,255,255,255),var(--alpha-bge,1));
+    border-style: solid;
+    border-color: rgba(var(--brde,163,217,246),var(--alpha-brde,1));
+}
+
+.entrada_telefone{
+    box-shadow: 0 0 0 0;
+    outline: 0;
+    border-width: var(--brwe,1px);
+    background-color: rgba(var(--bge,255,255,255),var(--alpha-bge,1));
+    border-style: solid;
+    border-color: rgba(var(--brde,163,217,246),var(--alpha-brde,1));
+}
+
+.entrada_email{
+    box-shadow: 0 0 0 0;
+    outline: 0;
+    border-width: var(--brwe,1px);
+    background-color: rgba(var(--bge,255,255,255),var(--alpha-bge,1));
+    border-style: solid;
+    border-color: rgba(var(--brde,163,217,246),var(--alpha-brde,1));
 }
 
 .btn_enviar{
@@ -260,7 +331,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
-    padding-top: 20px;
+    padding-top: 40px;
 }
 
 .botao_enviar{
@@ -279,7 +350,21 @@
     justify-content: center;
     margin-top: 150px;
     height: 200px;
-    background-color: rgb(119, 119, 119);
+    background-color: rgb(241, 240, 240);
+}
+
+.main_rodape{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.word_rodape{
+     margin-left: 50px;
+     color: #0060A6;
+     font-family: 'open sans',sans-serif;
+     font-size: 16px;
 }
 
 .midia_rodape{
@@ -288,15 +373,16 @@
 
 .face{
     border: none;
-    background-color: rgb(119, 119, 119);
+    background-color: rgb(241, 240, 240);
 }
 
 .insta{
     border: none;
-    background-color: rgb(119, 119, 119);
+    background-color: rgb(241, 240, 240);
 }
 
 .world{
     border: none;
-    background-color: rgb(119, 119, 119);
+    background-color: rgb(241, 240, 240);
+
 }
